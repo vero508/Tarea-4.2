@@ -50,13 +50,12 @@ public class Persona {
 	}
 	
 	// funcion para dependiendo de su edad saber si esta bien su IMC o no
-	public boolean esMayorEdad() {
-		boolean mayor = false;
-		
-		if(edad >= 18) {
-			mayor = true;
+	public boolean mayorEdad() {
+		if(edad>=18) {
+			return true;
+		}else {
+			return false;
 		}
-		return mayor;
 	}
 	
 	//METODOS GET Y SET
