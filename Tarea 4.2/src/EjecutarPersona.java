@@ -18,6 +18,16 @@ public class EjecutarPersona {
     System.out.println("Introduce la altura");
     double altura = sc.nextDouble();
     
+    public P1=new Persona();
+    public p2=new Persona(String nombre, int edad);
+    public p3=new Persona(String nombre, int edad, double peso, double altura);
+    
+    
+    
+    
+    
+    
+    
     
     }
     
